@@ -1,0 +1,33 @@
+form{
+    display:flex;
+  }
+  fieldset{
+    display:flex;
+  }
+  input:hover{
+    border:3px solid green;
+  }
+  input{
+    border: 1px dashed green;
+  }
+  textarea:hover{
+    border:3px solid green;
+  }
+  textarea{
+    border:1px solid red;
+  }
+  input:focus{
+    box-shadow:2px 2px 5px blue;
+  }
+  textarea:focus{
+    box-shadow:2px 2px 5px blue;
+  }
+  button{
+    width:100%;
+    background-color:Turquoise ;
+    height:20px;
+    border:1px solid black;
+    box-shadow:2px 2px 5px black;
+    font-size:15;
+    margin-top:20px;
+  }
